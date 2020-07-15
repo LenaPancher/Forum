@@ -1,0 +1,135 @@
+.color {
+    background-color: #b39c8b;
+    position : fixed;
+    z-index: 10000;
+    width: 100%;
+}
+
+.nav-link {
+    color: #DCD2C8;
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+}
+
+#navbarContent {
+    justify-content: flex-end;
+}
+
+h1, h3
+{
+    text-align:center;
+    color:#DA9B64;
+}
+
+h3
+{
+    background-color: #888e7f;
+    color: #DCD2C8;
+    font-size:1.5em;
+    margin-bottom:0px;
+    padding: 1%;
+}
+
+.news p
+{
+    background-color: whitesmoke;
+    margin-top:0px;
+    color: black;
+    padding: 3%;
+}
+.news
+{
+    width:100%;
+    margin:auto;
+}
+
+.news i {
+    text-decoration: underline;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.jumbotron {
+    background-color: #9B8357;
+    margin-top: 6%;
+}
+
+.form-group {
+    display: grid;
+    width: 250px;
+}
+
+form {
+    text-align: -webkit-center;
+    margin-top: 2%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.fond img {
+    height: 70%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: rgba(179, 156, 139, 0.8);
+    color: white;
+    padding: 6%;
+    border-radius: 15px;
+}
+
+.marge {
+    margin-top: 10%;
+}
+
+input[type=text], input[type=password], input[type=email], textarea {
+    border: none;
+    background-color: rgba(220, 210, 200, 0.39);
+}
+
+input[type=submit] {
+    background-color: #888e7f;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.commentaire {
+    border : solid black 1px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+
+.ajout_commentaire {
+    border : solid black 1px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-top: 2%;
+}
+
+.blog {
+    background: url("fond_profil.png");
+    background-size: cover;
+}
+
+.billet {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
